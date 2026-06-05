@@ -1,31 +1,42 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# KiCI status page configuration — https://status.kici.dev
+# Docs for this setup: docs/internal/status-page.md in the myci26 repo.
+owner: kici-dev
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # Canonical unauthenticated liveness probe. Everything else on this vhost
+  # deliberately 503s; /api/health is a 404 — do not "fix" the path.
+  # Webhook ingress (/webhook/*) shares this vhost + pool, so it is covered here.
+  - name: Platform API
+    url: https://api.kici.dev/health
+  # Bunny-CDN-served dashboard SPA.
+  - name: Dashboard
+    url: https://app.kici.dev
+  # Bunny-CDN-served docs.
+  - name: Docs
+    url: https://docs.kici.dev
+  # Keycloak OIDC discovery — clean unauthenticated 200.
+  - name: Auth
+    url: https://auth.kici.dev/realms/kici-internal/.well-known/openid-configuration
+
+assignees:
+  - cmaster11
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.kici.dev
+  name: KiCI status
+  logoUrl: https://kici.dev/cat-head.svg
+  introTitle: '**KiCI status** — live availability of the KiCI platform'
+  introMessage: >-
+    This page is updated automatically every few minutes by independent external
+    probes. Subscribe to updates via the
+    [Atom feed](https://github.com/kici-dev/status/commits/master.atom) or by
+    watching the [GitHub repository](https://github.com/kici-dev/status)
+    (Watch → Custom → Issues) for email notifications.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: kici.dev
+      href: https://kici.dev
+    - title: Docs
+      href: https://docs.kici.dev
