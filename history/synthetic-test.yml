@@ -1,7 +1,7 @@
-url: https://api.kici.dev/health
-status: up
-code: 200
-responseTime: 357
-lastUpdated: 2026-06-06T03:18:26.595Z
+url: https://api.kici.dev/ready
+status: down
+code: 503
+responseTime: 344
+lastUpdated: 2026-06-06T03:20:59.921Z
 startTime: 2026-06-06T03:08:55.487Z
 generator: Upptime <https://github.com/upptime/upptime>
