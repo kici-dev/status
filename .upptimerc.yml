@@ -30,7 +30,7 @@ status-website:
   introMessage: >-
     This page is updated automatically every few minutes by independent external
     probes. Subscribe to updates via the
-    [Atom feed](https://github.com/kici-dev/status/commits/master.atom) or by
+    [Atom feed](https://github.com/kici-dev/status/commits/main.atom) or by
     watching the [GitHub repository](https://github.com/kici-dev/status)
     (Watch → Custom → Issues) for email notifications.
   navbar:
