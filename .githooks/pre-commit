@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Pin every GitHub Action reference to a commit SHA before each commit.
+# pinact is version-pinned via mise.toml; enable this hook per clone with:
+#   git config core.hooksPath .githooks
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+mise exec -- pinact run
+git add .github/workflows
