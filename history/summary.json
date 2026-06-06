@@ -77,18 +77,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.kici.dev.ico",
     "slug": "synthetic-test",
     "status": "down",
-    "uptime": "98.77%",
-    "uptimeDay": "98.77%",
-    "uptimeWeek": "98.77%",
-    "uptimeMonth": "98.77%",
-    "uptimeYear": "98.77%",
+    "uptime": "62.06%",
+    "uptimeDay": "62.06%",
+    "uptimeWeek": "62.06%",
+    "uptimeMonth": "62.06%",
+    "uptimeYear": "62.06%",
     "time": 368,
     "timeDay": 368,
     "timeWeek": 368,
     "timeMonth": 368,
     "timeYear": 368,
     "dailyMinutesDown": {
-      "2026-06-06": 0
+      "2026-06-06": 7
     }
   }
 ]
