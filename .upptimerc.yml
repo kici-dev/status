@@ -18,9 +18,6 @@ sites:
   # Keycloak OIDC discovery — clean unauthenticated 200.
   - name: Auth
     url: https://auth.kici.dev/realms/kici-internal/.well-known/openid-configuration
-  # TEMPORARY synthetic-failure test monitor — remove after Telegram verification.
-  - name: Synthetic test
-    url: https://api.kici.dev/health
 
 assignees:
   - cmaster11
