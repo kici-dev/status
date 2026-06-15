@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/suzuki-shunsuke/pinact/refs/heads/main/json-schema/pinact.json
+# pinact - https://github.com/suzuki-shunsuke/pinact
+version: 3
+
+# The Upptime "update-template" workflow regenerates update-template.yml and
+# updates.yml on every run, hardcoding upptime/uptime-monitor@master and
+# upptime/updates@master. Those branch refs are owned upstream and are
+# intentionally floating, so pinact cannot resolve a SHA for them and must
+# leave them untouched (otherwise the pre-commit hook fails on every commit
+# that touches these workflows).
+rules:
+  - ignore: true
+    conditions:
+      - expr: |
+          ActionName == "upptime/uptime-monitor" && ActionVersion == "master"
+  - ignore: true
+    conditions:
+      - expr: |
+          ActionName == "upptime/updates" && ActionVersion == "master"
