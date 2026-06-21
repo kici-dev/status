@@ -1,7 +1,7 @@
 url: https://auth.kici.dev/realms/kici-internal/.well-known/openid-configuration
 status: up
 code: 200
-responseTime: 685
-lastUpdated: 2026-06-20T00:13:27.370Z
+responseTime: 384
+lastUpdated: 2026-06-21T00:12:25.514Z
 startTime: 2026-06-06T02:17:01.770Z
 generator: Upptime <https://github.com/upptime/upptime>
