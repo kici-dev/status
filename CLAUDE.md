@@ -9,6 +9,12 @@ from `gh-pages`, GitHub Issues store incidents. The operator runbook
 (monitored URLs, incident workflow, secrets, DNS) lives in the main KiCI
 repo at `docs/internal/status-page.md`.
 
+A reliable external trigger (the `kici-status-trigger` systemd timer on
+thinker1, sourced from `cmaster11-devops`) also POSTs `repository_dispatch:
+uptime` every 7 minutes, so the effective probe cadence stays under 10 minutes
+even when GitHub throttles the `*/5` cron. The cron remains as a best-effort
+floor — do not remove it.
+
 ## Ground rules
 
 - **Default branch is `main`.**
