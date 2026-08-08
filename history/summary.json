@@ -4,19 +4,19 @@
     "url": "https://api.kici.dev/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.kici.dev.ico",
     "slug": "platform-api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 542,
-    "timeDay": 441,
-    "timeWeek": 453,
-    "timeMonth": 533,
-    "timeYear": 542,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.04%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.98%",
+    "time": 541,
+    "timeDay": 452,
+    "timeWeek": 454,
+    "timeMonth": 531,
+    "timeYear": 541,
     "dailyMinutesDown": {
-      "2026-08-08": 0
+      "2026-08-08": 14
     }
   },
   {
@@ -60,19 +60,19 @@
     "url": "https://auth.kici.dev/realms/kici-internal/.well-known/openid-configuration",
     "icon": "https://icons.duckduckgo.com/ip3/auth.kici.dev.ico",
     "slug": "auth",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 544,
-    "timeDay": 369,
-    "timeWeek": 468,
-    "timeMonth": 541,
-    "timeYear": 544,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.06%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
+    "time": 542,
+    "timeDay": 395,
+    "timeWeek": 462,
+    "timeMonth": 538,
+    "timeYear": 542,
     "dailyMinutesDown": {
-      "2026-08-08": 0
+      "2026-08-08": 14
     }
   }
 ]
