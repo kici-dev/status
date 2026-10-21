@@ -60,17 +60,15 @@
     "slug": "auth",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.52%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 558,
     "timeDay": 678,
     "timeWeek": 618,
     "timeMonth": 585,
     "timeYear": 558,
-    "dailyMinutesDown": {
-      "2026-10-21": 7
-    }
+    "dailyMinutesDown": {}
   }
 ]
