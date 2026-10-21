@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 567,
-    "timeDay": 645,
-    "timeWeek": 592,
-    "timeMonth": 593,
+    "timeDay": 583,
+    "timeWeek": 603,
+    "timeMonth": 592,
     "timeYear": 567,
     "dailyMinutesDown": {}
   },
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 276,
-    "timeDay": 249,
-    "timeWeek": 331,
-    "timeMonth": 289,
-    "timeYear": 276,
+    "time": 277,
+    "timeDay": 380,
+    "timeWeek": 355,
+    "timeMonth": 295,
+    "timeYear": 277,
     "dailyMinutesDown": {}
   },
   {
@@ -47,9 +47,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 363,
-    "timeDay": 389,
-    "timeWeek": 309,
-    "timeMonth": 479,
+    "timeDay": 378,
+    "timeWeek": 342,
+    "timeMonth": 483,
     "timeYear": 363,
     "dailyMinutesDown": {}
   },
@@ -58,17 +58,19 @@
     "url": "https://auth.kici.dev/realms/kici-internal/.well-known/openid-configuration",
     "icon": "https://icons.duckduckgo.com/ip3/auth.kici.dev.ico",
     "slug": "auth",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 556,
-    "timeDay": 641,
-    "timeWeek": 578,
-    "timeMonth": 577,
+    "timeDay": 583,
+    "timeWeek": 587,
+    "timeMonth": 576,
     "timeYear": 556,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-21": 0
+    }
   }
 ]
